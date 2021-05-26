@@ -1,0 +1,49 @@
+username or email
+//input[@id='defaultLoginFormUsername']
+
+password
+//input[@id='defaultLoginFormPassword']
+
+remember me 
+(//*/app-root[1])//input[contains(@class,"remember-me-button")]
+
+sign in 
+//button[@id='sign-in-button']
+
+register 
+//a[@href = "/users/register"] | //*[text()="Register"]
+
+username 
+//input[@formcontrolname="username"]
+ email 
+//input[@formcontrolname="email"]
+
+password
+ //input[@id='defaultRegisterFormPassword']
+ repait  //input[@id='defaultRegisterPhonePassword']
+sign
+
+//button[@id='sign-in-button']
+
+
+
+login 
+//a[@id='nav-link-login']
+
+home
+//a[@id='nav-link-home']
+homeicon 
+//img[@id='homeIcon']
+
+search 
+//input[@id='search-bar']
+
+new post 
+//a[@id='nav-link-new-post']
+
+
+<3
+(//*/app-post-detail[1])[1]//i[contains(@class, "fa-heart")]
+
+thumbs down 
+(//*/app-post-detail[1])[1]//i[contains(@class, "fa-thumbs-down")]
